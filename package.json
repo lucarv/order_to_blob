@@ -1,0 +1,12 @@
+{
+  "name": "order_to_blob",
+  "version": "0.0.1",
+  "description": "a script that observes a json stream (from azure iot hub) containing work orders, it captures the start and end of the stream and save the record to azure blob storage",
+  "main": "index.js",
+  "author": "lucarv",
+  "license": "MIT",
+  "dependencies": {
+    "azure-event-hubs": "^0.2.6",
+    "azure-storage": "^2.10.1",
+    "dotenv": "^6.0.0"
+  }}

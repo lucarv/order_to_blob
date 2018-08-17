@@ -1,0 +1,16 @@
+{
+  "name": "read-d2c-messages",
+  "version": "1.0.0",
+  "description": "This example uses the [Node.js SDK for Azure Event hubs](https://github.com/Azure/azure-event-hubs-node) to read from your IoT hub's Event Hub-compatible endpoint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "^0.2.6",
+    "azure-storage": "^2.10.1",
+    "dotenv": "^6.0.0"
+  }
+}
